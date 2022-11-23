@@ -1,0 +1,63 @@
+<!doctype html>
+
+
+<html>
+
+    <head>
+      <style>
+table{
+
+  width: 100%;
+}
+table,td,th{
+border: 2px solid red;
+border-collapse: collapse;
+}
+td{
+  padding: 5px;
+  text-align: center;
+}
+tr:nth-child(odd){
+  background-color: tomato;
+  
+}
+tr:nth-child(even){
+  background-color: rgb(212, 153, 26);
+  
+}
+      </style>
+
+        <title>table</title>
+      </head>
+        <table>
+      <tr>
+       <th class="row1">Name</th>
+       <th>Email</th>
+       <th>Phone Number</th>
+       </tr>
+       <tr>
+
+        <td>Bhanu</td>
+       <td>narayana.470@gmail.com</td>
+       <td>9704218402</td>
+
+       </tr>
+       
+       <tr>
+
+        <td>Bhanu</td>
+       <td>narayana.470@gmail.com</td>
+       <td>9704218402</td>
+
+       </tr>
+      
+      
+       <tr>
+
+       <td>Bhanu</td>
+       <td>narayana.470@gmail.com</td>
+       <td>9704218402</td>
+
+      </tr>
+    </table>
+ </html>
